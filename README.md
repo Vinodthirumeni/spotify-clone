@@ -80,23 +80,26 @@ Specific Steps:
 Register with spotify and google spotify developer and create project in that web page and set redirect to local host and also get clientId
 
 3rd PARTY PLUGIN
-  Install Material UI(For icons and components)
-    npm install @material-ui/core
-    npm install @material-ui/icons
 
-  Install Spotify Web Api (For Login,action access,playlist,song pull from their API...etc)
-    npm i spotify-web-api-js
+    Install Material UI(For icons and components)
+      npm install @material-ui/core
+      npm install @material-ui/icons
+
+    Install Spotify Web Api (For Login,action access,playlist,song pull from their API...etc)
+      npm i spotify-web-api-js
 
 DATABASE & DEPLOYMENT
-  > npm i firebase
-  > npm install -g firebase-tools
-  > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
-  > firebase login
-  > firebase init
-  > Hosting -> Use Exiting project ->(pick the project name)
-  > insted of public give build
-  > Single page application? -> y
-  > npm run build(in future any chnages in the code means we have to use this again)
-  > firebase deploy
+      > npm i firebase
+      > npm install -g firebase-tools
+      > login to gmail -> search for firebase -> choose account -> go to console -> create a project -> go to project setting -> grab the config file -> create firebase.js file in your application -> paste it
+      > firebase login
+      > firebase init
+      > Hosting -> Use Exiting project ->(pick the project name)
+      > insted of public give build
+      > Single page application? -> y
+      > npm run build(in future any chnages in the code means we have to use this again)
+      > firebase deploy
 
 Note: npm i firebase (If not working try this and continue npm cache clean --force)
+
+Live Link : https://spotify-clone-3b808.web.app
